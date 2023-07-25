@@ -13,7 +13,6 @@ const Navigation = () => {
       <Stack.Navigator>
         <Stack.Screen name="Home" component={HomeScreen} />
         <Stack.Screen name="About" component={AboutScreen} />
-        {/* Adicione outras telas aqui com seus respectivos nomes e componentes */}
       </Stack.Navigator>
     </NavigationContainer>
   );
